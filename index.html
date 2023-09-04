@@ -29,7 +29,7 @@
         <section class="create-todo">
             <h5>CREATE A TODO</h5>
 
-            <form id="new-todo-form">
+            <form id="new-todo-form" onsubmit="event.preventDefault()">
 
                 <h4>What's on your todo list</h4>
                 <input type="text" name="content" id="content" placeholder="e.g. make a video" />
