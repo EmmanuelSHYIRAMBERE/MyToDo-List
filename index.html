@@ -22,14 +22,14 @@
 
         <section class="greeting">
             <h2 class="title">
-                    What's up, <input type="text" id="name" placeholder="Apply name">
+                    What's up, <input type="text" id="name" placeholder="name here">
             </h2>
         </section>
 
         <section class="create-todo">
             <h5>CREATE A TODO</h5>
 
-            <form id="new-todo-form" onsubmit="event.preventDefault()">
+            <form id="new-todo-form">
 
                 <h4>What's on your todo list</h4>
                 <input type="text" name="content" id="content" placeholder="e.g. make a video" />
@@ -37,7 +37,7 @@
                 <h4>Pick a category</h4>
                 <div class="options">
                     <label>
-                          <input type="radio" name="category" id="category1" value="business"  />
+                          <input type="radio" name="category" id="category1" value="personal"  />
                           <span class="bubble business"></span>
                           <div>Business</div>
                     </label>
@@ -59,43 +59,8 @@
 
              <h3>TODO LIST</h3>
              <div class="list" id="todo-list">
-                
-                 <!--
-                
-                   <div class="todo-item done">
-  <label>
-    <input type="checkbox" />
-    <span class="bubble business"></span>
-  </label>
 
-  <div class="todo-content">
-    <input type="text" value="Make a video" readonly />
-  </div>
-
-  <div class="actions">
-    <button class="edit">Edit</button>
-    <button class="delete">Delete</button>
-  </div>
-</div>
-
-<div class="todo-item">
-  <label>
-    <input type="checkbox" />
-    <span class="bubble personal"></span>
-  </label>
-
-  <div class="todo-content">
-    <input type="text" value="Get milk" readonly />
-  </div>
-
-  <div class="actions">
-    <button class="edit">Edit</button>
-    <button class="delete">Delete</button>
-  </div>
-</div>
-
-                
-                -->
+                 
 
              </div>                           
 
@@ -105,7 +70,7 @@
 
    
 
-<script src="./main.js"></scritp>
+<script src="main.js"></scritp>
 
 </body>
 
